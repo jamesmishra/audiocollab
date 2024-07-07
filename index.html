@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Audio Collab</title>
+  <link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <div id="explanation">
+      <p>
+        Draw an audio waveform on the below canvas. Then, click
+        <em>Play Audio</em> to hear what it sounds like.
+      </p>
+      <p>
+        Click <em>Reset Drawing</em> to start from scratch.
+      </p>
+    </div>
+    <div id="controls">
+      <input type="button" id="clearButton" value="Reset Drawing" />
+      <input type="button" id="playStopButton" value="Play Audio" />
+    </div>
+    <div id="positionDisplay">
+      x:  , y: 
+    </div>
+    <div id="canvasContainer">
+      <canvas id="myCanvas">
+    </div>
+  </main>
+
+  <script type="module" src="/script.js"></script>
+
+</body>
+
+</html>
